@@ -1,0 +1,29 @@
+# Dados e saidas (grandes; nunca versionar)
+/input/
+/output/
+/Input/
+/Output/
+*.PBI
+*.pbi
+*.FLP
+!tests/dados_teste/**
+AREA_ACU.txt
+*.rar
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+.spyproject/
+.idea/
+.vscode/
